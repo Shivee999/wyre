@@ -1,9 +1,8 @@
-/* WYRE tile loader: builds the hero and lifestyle image stacks from
-   small tiles. Tiles are kept small so each deploys without corruption. */
+/* WYRE tile loader. Images ship as small tiles so each transfers intact. */
 (function(){
   "use strict";
   function stack(host, prefix, count){
-    if(!host) return;
+    if(!host || !count) return;
     host.innerHTML = "";
     host.style.display = "flex";
     host.style.flexDirection = "column";
@@ -17,6 +16,6 @@
       host.appendChild(d);
     }
   }
-  stack(document.querySelector(".phstack"), "H", 10);
-  stack(document.getElementById("parallaxBg"), "L", 21);
+  stack(document.querySelector(".phstack"), "H", 12);
+  stack(document.getElementById("parallaxBg"), "L", 0);
 })();
