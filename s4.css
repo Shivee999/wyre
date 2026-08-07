@@ -1,0 +1,6 @@
+/* s4.css - hero tiles + cleanup of missing assets */
+.photoframe .ph.phstack{background-image:url("H1.webp"),url("H2.webp"),url("H3.webp"),url("H4.webp"),url("H5.webp"),url("H6.webp"),url("H7.webp"),url("H8.webp"),url("H9.webp"),url("H10.webp"),url("H11.webp"),url("H12.webp")!important;background-position:0 0.0000%,0 9.0909%,0 18.1818%,0 27.2727%,0 36.3636%,0 45.4545%,0 54.5455%,0 63.6364%,0 72.7273%,0 81.8182%,0 90.9091%,0 100.0000%!important;background-size:100% 8.3334%!important;background-repeat:no-repeat!important}
+.phstack>i{display:none!important}
+.lt,.lt1,.lt2,.lt3,.lt4,.lt5,.lt6,.life-a,.life-b{background-image:none!important;display:none!important}
+#parallaxBg{background:linear-gradient(155deg,#E8EAEE 0%,#C9CDD4 38%,#EFEFF1 62%,#B9BEC6 100%)!important}
+.lifestyle .scrim{background:linear-gradient(180deg,rgba(11,11,13,0) 0%,rgba(11,11,13,.45) 78%,rgba(11,11,13,.68) 100%)!important}
